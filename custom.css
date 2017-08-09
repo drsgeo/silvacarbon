@@ -1,0 +1,140 @@
+/*-----------------------------------------------------------------------------------
+
+	Custom Additions to Canvas
+
+-----------------------------------------------------------------------------------*/
+
+.bottommargin-verysm {
+    margin-bottom: 15px !important;
+}
+
+.noline::after {
+    border-top: none;
+}
+
+.portfolio-desc h5 a {
+    color: #222;
+}
+
+.portfolio-desc h5 a:hover {
+    color: #1abc9c;
+}
+
+.team-title h5 {
+    display: block;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.col-md-2 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.col-md-2 .team-title span {
+    font-size: 12px;
+}
+
+div.activity-item {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div.research-title, div.activity-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+div.research-pi {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+div.activity-timeplace {
+    margin-bottom: 15px;
+}
+
+p.activity-desc {
+    position: relative;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.activity-list {
+    position: relative;
+    float: none;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+div.activity-link {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+div.activity-meta {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.team {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.team-title {
+    min-height: 140px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+    
+.entry-date {
+    font-style: italic;
+    font-size: 8pt;
+}
+
+.team-desc.team-desc-bg {
+    padding-bottom: 10px;
+}
+
+/*footer a img {
+    height: 40px;
+    width: 40px;
+}*/
+
+.disclaimer {
+    font-style: italic;
+}
+
+.col_one_seventh {
+    width: 10.85%;
+	display: block;
+	position: relative;
+	margin-right: 4%;
+	margin-bottom: 50px;
+	float: left;
+}
+
+form .col_one_seventh { 
+    margin-bottom: 25px; 
+}
+
+.footer-widgets-wrap .col_one_seventh { 
+    margin-bottom: 0;
+}
+
+.col-half-offset {   /* for dividing into fifths */
+    margin-left: 4.166666667%;
+}
+
