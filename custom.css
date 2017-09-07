@@ -138,3 +138,20 @@ form .col_one_seventh {
     margin-left: 4.166666667%;
 }
 
+.entry-image {
+    float: right;
+    margin: 20px;
+}
+
+#about .entry-image {
+    width: 400px;
+}
+
+#research .entry-image {
+    width: 544px;
+}
+
+.sponsor {
+    height: 90px;
+}
+
