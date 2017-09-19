@@ -148,10 +148,43 @@ form .col_one_seventh {
 }
 
 #research .entry-image {
-    width: 544px;
+    width: 544px;                             
 }
 
 .sponsor {
     height: 90px;
 }
 
+.dark #header-wrap:not(.not-dark) #primary-menu > ul > li > a,
+.dark #header-wrap:not(.not-dark) #primary-menu > .container > ul > li > a,
+.dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li > a,
+.overlay-menu #primary-menu.dark > ul > li > a,
+.dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > #overlay-menu-close,
+.overlay-menu #primary-menu.dark > #overlay-menu-close,
+.dark #header-wrap:not(.not-dark) #top-search a,
+.dark #header-wrap:not(.not-dark) #top-cart a,
+.dark #header-wrap:not(.not-dark) #side-panel-trigger a,
+.dark #header-wrap:not(.not-dark) #top-account a,
+.dark #top-cart .top-cart-item-desc a,
+body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
+.dark #header-wrap:not(.not-dark) #top-search a:hover,
+.dark #header-wrap:not(.not-dark) #top-cart a:hover,
+.dark #header-wrap:not(.not-dark) #side-panel-trigger a:hover,
+.dark #header-wrap:not(.not-dark) #top-account a:hover,
+.dark #header-wrap:not(.not-dark) #top-search form input,
+.dark .slider-caption,
+.dark .slider-caption h2 {
+	text-shadow: 1px 1px 1px rgba(0,0,0,1.0) !important;
+}
+
+#countries h5 {
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#countries img,
+#activities img {
+    float: right;
+    margin-left: 10px;
+}
