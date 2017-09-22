@@ -188,3 +188,10 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
     float: right;
     margin-left: 10px;
 }
+
+img.leftfloat {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
