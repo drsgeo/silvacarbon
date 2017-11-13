@@ -108,11 +108,6 @@ div.activity-meta {
     padding-bottom: 10px;
 }
 
-/*footer a img {
-    height: 40px;
-    width: 40px;
-}*/
-
 .disclaimer {
     font-style: italic;
 }
@@ -144,6 +139,10 @@ form .col_one_seventh {
 }
 
 #about .entry-image {
+    width: 400px;
+}
+
+#countries .entry-image {
     width: 400px;
 }
 
@@ -183,10 +182,14 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
     margin-bottom: 15px;
 }
 
-#countries img,
 #activities img {
     float: right;
     margin-left: 10px;
+}
+
+img.rightfloat {
+	float: right;
+	margin-left: 10px;
 }
 
 img.leftfloat {
@@ -194,4 +197,25 @@ img.leftfloat {
     margin-right: 15px;
     margin-bottom: 15px;
     margin-top: 15px;
+}
+
+.team-title span.email {
+    font-family: sans-serif;
+	font-style: normal;
+}
+
+.acctitle h3 {
+	margin-left: 20px;
+}
+
+.results li {
+	margin-bottom: 10px;
+}
+
+.hl {
+	font-weight: bold;
+}
+
+.team {
+	min-width: 150px;
 }
