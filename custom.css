@@ -199,6 +199,11 @@ img.leftfloat {
     margin-top: 15px;
 }
 
+img.margin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .team-title span.email {
     font-family: sans-serif;
 	font-style: normal;
