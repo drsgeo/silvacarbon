@@ -23,7 +23,6 @@
 .team-title h5 {
     display: block;
     margin-bottom: 0;
-    text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
 }
@@ -227,5 +226,15 @@ img.margin {
 
 h4.lowercase-heading-block {
 	font-weight: 600;
+	text-transform: none;
+}
+
+.heading-block h1,
+.heading-block h2,
+.heading-block h3,
+.heading-block h4,
+.emphasis-title h1,
+.emphasis-title h2,
+.slider-caption h2 {
 	text-transform: none;
 }
