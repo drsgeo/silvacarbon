@@ -181,11 +181,6 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
     margin-bottom: 15px;
 }
 
-#activities img {
-    float: right;
-    margin-left: 10px;
-}
-
 img.rightfloat {
 	float: right;
 	margin-left: 10px;
