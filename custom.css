@@ -181,12 +181,12 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
     margin-bottom: 15px;
 }
 
-img.rightfloat {
+.rightfloat {
 	float: right;
 	margin-left: 10px;
 }
 
-img.leftfloat {
+.leftfloat {
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -232,4 +232,10 @@ h4.lowercase-heading-block {
 .emphasis-title h2,
 .slider-caption h2 {
 	text-transform: none;
+}
+
+.section-heading-block {
+    background-color: #e5e5e5;
+    text-align: left !important;
+    padding-left: 10px;
 }
