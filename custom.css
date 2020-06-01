@@ -203,10 +203,6 @@ img.margin {
 	font-style: normal;
 }
 
-.acctitle h3 {
-	margin-left: 20px;
-}
-
 .results li {
 	margin-bottom: 10px;
 }
@@ -249,4 +245,33 @@ h4.lowercase-heading-block {
     background-color: #e5e5e5;
     text-align: left !important;
     padding-left: 10px;
+}
+
+div.research_outcomes {
+    font-weight: bold;
+}
+
+div.research_citations > dl > dd {
+    margin-bottom: 0px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.research_title {
+    position: relative;
+    line-height: 24px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #444;
+    padding: 10px 0 10px 20px;
+}
+
+.research_title i {
+	margin-right: 10px;
+}
+
+.research_content {
+    position: relative;
+    padding: 0 0 15px 20px;
 }
