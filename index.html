@@ -7,23 +7,23 @@
         <link rel="shortcut icon" href="images/scWEBicon.png" type="image/png" />
         
         <!-- Stylesheets ============================================= -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" type="text/css" />
-        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+     	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
         <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="stylesheet" href="css/swiper.css" type="text/css" />
         <link rel="stylesheet" href="css/dark.css" type="text/css" />
         <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
         <link rel="stylesheet" href="css/animate.css" type="text/css" />
-
-        <link rel="stylesheet" href="css/responsive.css" type="text/css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
         <link rel="stylesheet" href="custom.css" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <!-- Document Title ============================================= -->
         <title>SilvaCarbon</title>
     
         <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. --> 
-        <!-- <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USGS" id="_fed_an_ua_tag"></script> -->
+        <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USGS" id="_fed_an_ua_tag"></script>
     </head>
 
     <body class="stretched">
@@ -33,43 +33,48 @@
         <div id="wrapper" class="clearfix">
 
             <!-- Header ============================================= -->
-            <header id="header" class="full-header" data-sticky-class="not-dark">                              
+            <header id="header" class="full-header">                              
                 <div id="header-wrap">
-                    <div class="container clearfix">
-                        <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                    <div class="container">
+                        <div class="header-row">
 
-                        <!-- Logo ============================================= -->
-                        <div id="logo">
-                            <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark-sc.png"><img src="images/logo-sc.png" alt="SilvaCarbon Logo" /></a>
-                            <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x-sc.png"><img src="images/logo@2x-sc.png" alt="SilvaCarbon Logo" /></a>
-                        </div><!-- #logo end -->
+                            <!-- Logo ============================================= -->
+                            <div id="logo">
+                                <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark-sc.png">
+                                    <img src="images/logo-sc.png" alt="SilvaCarbon Logo" />
+                                </a>
+                                <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x-sc.png">
+                                    <img src="images/logo@2x-sc.png" alt="SilvaCarbon Logo" />
+                                </a>
+                            </div><!-- #logo end -->
 
-                        <!-- Primary Navigation ============================================= -->
-                        <nav id="primary-menu" class="dark">
-                            <ul>
-                                <li class="mega-menu"><a href="#"><div>Home</div></a></li>
-                                <li class="mega-menu"><a href="#about" data-scrollto="#about"><div>About</div></a></li>
-                                <li class="mega-menu"><a href="#countries" data-scrollto="#countries"><div>Where We Work</div></a></li>
-                                <li class="mega-menu"><a href="#activities" data-scrollto="#activities"><div>Activities</div></a></li>
-                                <li class="mega-menu"><a href="#newsletter" data-scrollto="#newsletter"><div>Newsletter</div></a></li>
-                                <li class="mega-menu"><a href="#publications" data-scrollto="#publications"><div>Publications</div></a></li>
-                                <li class="mega-menu"><a href="#research" data-scrollto="#research"><div>Research</div></a></li>
-                                <!-- <li class="mega-menu"><a href="#resources" data-scrollto="#resources"><div>Resources</div></a></li> -->
-                                <li class="mega-menu"><a href="#contacts" data-scrollto="#contacts"><div>Contacts</div></a></li>
-                            </ul>
-                        </nav><!-- #primary-menu end -->
+                            <!-- Primary Navigation ============================================= -->
+                            <nav class="primary-menu">
+                                <ul class="menu-container">
+                                    <li class="menu-item"><a href="#">Home</a></li>
+                                    <li class="menu-item"><a href="#about" data-scrollto="#about">About</a></li>
+                                    <li class="menu-item"><a href="#countries" data-scrollto="#countries">Where We Work</a></li>
+                                    <li class="menu-item"><a href="#activities" data-scrollto="#activities">Activities</a></li>
+                                    <li class="menu-item"><a href="#newsletter" data-scrollto="#newsletter">Newsletter</a></li>
+                                    <li class="menu-item"><a href="#publications" data-scrollto="#publications">Publications</a></li>
+                                    <li class="menu-item"><a href="#research" data-scrollto="#research">Research</a></li>
+                                    <li class="menu-item"><a href="#contacts" data-scrollto="#contacts">Contacts</a></li>
+                                </ul>
+                            </nav><!-- #primary-menu end -->
+                        </div>
                     </div>
                 </div>
             </header><!-- #header end -->
 
-            <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
-                <div class="slider-parallax-inner">
+            <!-- <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix"> -->
+            <section id="slider" class="slider-element swiper_wrapper min-vh-60 min-vh-md-100 include-header">
+                <div class="slider-inner">
                     <div class="swiper-container swiper-parent">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide dark" style="background-image: url('images/home_screen.jpg')">
-                                <div class="container clearfix">
+                                <div class="container">
                                     <div class="slider-caption slider-caption-center">
-                                        <h2 data-caption-animate="fadeInUp">SilvaCarbon</h2>
+                                        <h2>SilvaCarbon</h2>
                                     </div>
                                 </div>
                             </div>
@@ -88,61 +93,65 @@
 								<h2>About SilvaCarbon</h2>
 							</div>
 							<div class="container clearfix">
-								<div class="col_two_third">
-									<p class="divcenter tleft bottommargin-verysm" style="font-weight:bold">
-                                        SilvaCarbon is an interagency technical cooperation program of the US Government to enhance the capacity of selected tropical countries to 
-                                        measure, monitor, and report on carbon in their forests and other lands. Drawing on expertise and resources from multiple US Government 
-                                        agencies and partners, the program provides targeted technical support to countries in the process of developing and implementing national
-                                         forest and landscape monitoring systems to support management decisions. SilvaCarbon leverages state-of-the-art science and technology to 
-                                         advance the generation and use of improved information related to forest and terrestrial carbon.
-									</p>
-									<div class="container clearfix">
-										<div class="col_one_third center">
-											<a href="docs/silvacarbon_factsheet_english.pdf" target="_blank">
-												<img src="docs/silvacarbon_factsheet_english.png" alt="SilvaCarbon Fact Sheet" title="SilvaCarbon Fact Sheet" />
-												<h5>SilvaCarbon Fact Sheet</h5>
-											</a>
-										</div>
-										<div class="col_one_third center col_last">
-											<a href="docs/silvacarbon_factsheet_spanish.pdf" target="_blank">
-												<img src="docs/silvacarbon_factsheet_spanish.png" alt="Información (Español)" title="Información (Español)" />
-												<h5>Información (Español)</h5>
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="col_one_third col_last">
-									<div class="fslider" data-arrows="false" data-lightbox="gallery">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide">
-													<img src="images/about/about1.jpg" alt="About" />
-												</div>
-												<div class="slide">
-													<img src="images/about/about2.jpg" alt="About" />
-												</div>
-												<div class="slide">
-													<img src="images/about/about3.jpg" alt="About" />
-												</div>
-												<div class="slide">
-													<img src="images/about/about4.jpg" alt="About" />
-												</div>
-												<div class="slide">
-													<img src="images/about/about5.jpg" alt="About" />
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="toggle clearfix">
-								<div class="togglet">
-									<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-									<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-									<h3>Background</h3>
+                                <div id="aboutrow" class="row">
+                                    <div class="col-8">
+                                        <p class="bottommargin-verysm" style="font-weight:bold;text-align:left">
+                                            SilvaCarbon is an interagency technical cooperation program of the US Government to enhance the capacity of selected tropical countries to 
+                                            measure, monitor, and report on carbon in their forests and other lands. Drawing on expertise and resources from multiple US Government 
+                                            agencies and partners, the program provides targeted technical support to countries in the process of developing and implementing national
+                                            forest and landscape monitoring systems to support management decisions. SilvaCarbon leverages state-of-the-art science and technology to 
+                                            advance the generation and use of improved information related to forest and terrestrial carbon.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-6 center">
+                                                <a href="docs/silvacarbon_factsheet_english.pdf" target="_blank">
+                                                    <img src="docs/silvacarbon_factsheet_english.png" alt="SilvaCarbon Fact Sheet" title="SilvaCarbon Fact Sheet" />
+                                                    <h5>SilvaCarbon Fact Sheet</h5>
+                                                </a>
+                                            </div>
+                                            <div class="col-6 center">
+                                                <a href="docs/silvacarbon_factsheet_spanish.pdf" target="_blank">
+                                                    <img src="docs/silvacarbon_factsheet_spanish.png" alt="Información (Español)" title="Información (Español)" />
+                                                    <h5>Información (Español)</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="fslider" data-arrows="false" data-lightbox="gallery">
+                                            <div class="flexslider">
+                                                <div class="slider-wrap">
+                                                    <div class="slide">
+                                                        <img src="images/about/about1.jpg" alt="About" />
+                                                    </div>
+                                                    <div class="slide">
+                                                        <img src="images/about/about2.jpg" alt="About" />
+                                                    </div>
+                                                    <div class="slide">
+                                                        <img src="images/about/about3.jpg" alt="About" />
+                                                    </div>
+                                                    <div class="slide">
+                                                        <img src="images/about/about4.jpg" alt="About" />
+                                                    </div>
+                                                    <div class="slide">
+                                                        <img src="images/about/about5.jpg" alt="About" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="togglec clearfix">
-									<p class="divcenter tleft bottommargin-verysm">
+							</div>
+							<div class="toggle">
+								<div class="toggle-header">
+									<div class="toggle-icon">
+										<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
+										<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
+									</div>
+									<div class="toggle-title toggle-h3" title="Click to expand or contract section">Background</div>
+                                </div>
+                                <div class="toggle-content">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         Forest regulates ecosystems, play a key role in carbon in the carbon cycle, support biodiversity, and local livelihoods. Tropical
                                         deforestation and forest degradation pose a serious threat to people, economies, and biodiversity worldwide. Tropical forests continue
                                         to decline at an alarming rate, undermining economic development and exacerbating social and environmental challenges. To address this
@@ -151,7 +160,7 @@
                                         forest and land use management and planning, track and meet national sustainable development goals, and curb forest loss through
                                         approaches such as Reducing Emissions from Deforestation and Forest Degradation (REDD+).
                                     </p>
-									<p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         Many tropical countries have prioritized the establishment of national forest and landscape monitoring systems. These systems combine
                                         remote sensing data with ground-based forest inventory data to generate up-to-date information about forest and landscape dynamics and
                                         associated carbon dynamics. This information is essential for sustainably managing natural resources, as well as combating illegal
@@ -159,7 +168,7 @@
                                         monitoring systems also increase transparency and accountability, helping to level the international playing field for trade and
                                         private investment.
                                     </p>           
-									<p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         Recent years have seen the rapid advancement of forest and landscape monitoring science and technology. This includes impressive 
                                         improvements in satellite data availability and quality along with improved ground measurements, enhanced modeling capabilities,
                                         and increased knowledge through research. In order to take full advantage of these opportunities, countries must first build the
@@ -168,7 +177,7 @@
                                         robust, cost-effective forest and landscape monitoring systems that are sustainable over the long term for land management and emission
                                         reporting purposes.
 									</p>
-                                    <p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         With this in mind, US federal agencies have joined together to create the SilvaCarbon program. SilvaCarbon capitalizes on the
                                         accumulated expertise of the US scientific and technical community to build capacity for monitoring, measuring, and reporting
                                         forest and terrestrial carbon. SilvaCarbon supports national forest and landscape monitoring efforts in partner countries by
@@ -177,30 +186,32 @@
 									</p>                  
                                 </div>
 							</div>
-							<div class="toggle clearfix">
-								<div class="togglet">
-									<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-									<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-									<h3>Objectives</h3>
+							<div class="toggle">
+								<div class="toggle-header">
+									<div class="toggle-icon">
+										<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
+										<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
+									</div>
+									<div class="toggle-title toggle-h3" title="Click to expand or contract section">Objectives</div>
                                 </div>
-                                <div class="togglec clearfix center bottommargin-sm">
-									<p class="divcenter tleft bottommargin-verysm">
+                                <div class="toggle-content center bottommargin-sm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         SilvaCarbon assists countries to generate and effectively use improved information related to forest and terrestrial carbon to enhance
                                         management, monitoring and planning efforts. The SilvaCarbon Results Chain describes the objectives for the program and the pathways
                                         for achieving them.
                                     </p>
 									<img src="images/results_chain.jpg" alt="Results Chain" class="fnone bottommargin-sm" />
-									<p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         Capacity-building <i>Activities</i> are strategically designed to achieve program <i>Outputs</i>, or short-term objectives. Outputs in
                                         turn contribute to program <i>Outcomes</i>, or medium-term objectives. Outcomes set the conditions needed to realize the program’s
                                         <i>Impact</i>, or overarching, long-term objective.
                                     </p>
-									<p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         Activities in each partner country or region are intended to achieve specific objectives identified with partners, responding to
                                         national priorities and needs. Information about specific SilvaCarbon activities is available on the 
                                         <a href="#activities" data-scrollto="#activities">Activities Page</a>.
                                     </p>
-									<p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         Better information on forest, landscape, and terrestrial carbon dynamics help countries improve the management of these critical natural
                                         resources. Better planning, managing, and monitoring forests and other landscapes can help reduce vulnerability to natural disasters,
                                         increase economic activities, and support better governance. Enhanced transparency leads to better accountability to domestic and
@@ -208,26 +219,28 @@
 									</p>
 								</div>
 							</div>
-							<div class="toggle clearfix">
-								<div class="togglet">
-									<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-									<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-									<h3>Focal Areas</h3>
+							<div class="toggle">
+								<div class="toggle-header">
+									<div class="toggle-icon">
+										<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
+										<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
+									</div>
+									<div class="toggle-title toggle-h3" title="Click to expand or contract section">Focal Areas</div>
                                 </div>
-                                <div class="togglec clearfix center bottommargin-sm">
-									<p class="divcenter tleft">
+                                <div class="toggle-content center bottommargin-sm">
+									<p style="text-align:left">
                                         National forest and land use monitoring systems combine different subsystems and data to generate information that meets a variety of
                                         country-specific management, policy, and reporting needs. Most systems include remote sensing, and forest inventory components, and
                                         the integration of these data into GHG inventory. SilvaCarbon assists countries to strengthen technical capacities across each of
                                         these components, with emphasis on integrating the components and associated workstreams in holistic national systems that support
                                         multiple objectives.
 									</p>
-                                    <img src="images/capacity_building_focal_areas.jpg" alt="Capacity-Building Focal Areas" class="fnone bottommargin-sm" />
-                                    <p class="divcenter tleft bottommargin-verysm">
+                                    <img src="images/capacity_building_focal_areas.jpg" alt="Capacity-Building Focal Areas" class="center fnone bottommargin-sm" />
+									<p class="bottommargin-verysm" style="text-align:left">
                                             Some of the technical issues addressed by SilvaCarbon include:
 									</p>
 									<div class="bottommargin">
-										<ul class="tleft leftmargin">
+										<ul style="text-align:left;margin-left:3rem">
                                             <li>Sampling protocols and design</li>
                                             <li>Satellite data analysis</li>
                                             <li>Collection and analysis of in situ data</li>
@@ -239,19 +252,21 @@
 									</div>
 								</div>
 							</div>
-                            <div class="toggle clearfix">
-								<div class="togglet">
-									<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-									<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-									<h3>Partners</h3>
+                            <div class="toggle">
+								<div class="toggle-header">
+									<div class="toggle-icon">
+										<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
+										<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
+									</div>
+									<div class="toggle-title toggle-h3" title="Click to expand or contract section">Partners</div>
                                 </div>
-                                <div class="togglec clearfix">
-                                    <p class="divcenter tleft bottommargin-verysm">
+                                <div class="toggle-content">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         Collaboration is central to SilvaCarbon’s mission. As an interagency initiative of the US Government, the program mobilizes forest
                                         and landscape monitoring expertise and resources from multiple US agencies and domestic and international partners across government,
                                         academia, civil society, and industry. Key institutions involved in SilvaCarbon include:
                                     </p>
-									<div class="heading-block center nomargin noline">
+									<div class="center heading-block nomargin noline">
 										<h4>US Government Agencies</h4>
 										<div class="bottommargin-verysm col-md-8 col-centered">
 											The following US Government agencies have contributed to SilvaCarbon:
@@ -340,28 +355,28 @@
                                                 </div>
                                             </div>
                                         </div>
-										<p class="divcenter tleft bottommargin-verysm">
+                                        <p class="bottommargin-verysm" style="text-align:left">
                                             Funding for SilvaCarbon has been provided primarily through the USAID 
                                             <a href="https://www.usaid.gov/climate/sustainable-landscapes" target="_blank">Sustainable Landscapes</a>
                                             program and the US Department of State’s 
                                             <a href="https://www.state.gov/e/oes" target="_blank">Bureau of Oceans and International Environmental and Scientific Affairs</a>.
                                             Program implementation has been led primarily by USFS, USGS, EPA, and NASA.
                                         </p>
-										<p class="divcenter tleft bottommargin-verysm">
+                                        <p class="bottommargin-verysm" style="text-align:left">
                                             SilvaCarbon also works closely with a variety of other US Government programs and initiatives. This includes the NASA-SERVIR
                                             program, which provides state-of-the-art, satellite-based Earth monitoring data, geospatial information, and tools to help
                                             improve environmental decision-making among developing nations in Eastern and Southern Africa, the Hindu-Kush-Himalaya region,
                                             and the Mekong River Basin in Southeast Asia.
 										</p>
                                     </div>
-									<div class="heading-block center nomargin noline">
-										<h4>Academia</h4>
-										<p class="divcenter tleft bottommargin-verysm">
+									<div class="heading-block nomargin noline">
+										<h4 class="center">Academia</h4>
+                                        <p class="bottommargin-verysm" style="text-align:left">
                                             Academia plays a crucial role in developing forest and landscape monitoring tools and approaches and in strengthening the
                                             underlying science. SilvaCarbon collaborates with a number of research partners to achieve its capacity-building objectives, including:
                                         </p>
 										<div class="bottommargin">
-											<ul class="tleft leftmargin">
+											<ul style="margin-left:20%;text-align:left">
                                                 <li>
                                                     The University of Maryland
                                                     <a href="http://www.glad.umd.edu" target="_blank">Global Land Analysis and Discovery (GLAD) group</a>
@@ -385,10 +400,10 @@
 											</ul>
 										</div>
                                     </div>
-                                    <div class="heading-block center nomargin noline">
-                                        <h4>Nonprofits and private institutions</h4>
+                                    <div class="heading-block nomargin noline">
+                                        <h4 class="center">Nonprofits and private institutions</h4>
                                         <div class="bottommargin">
-                                            <ul class="tleft leftmargin">
+                                            <ul style="margin-left: 20% !important;text-align:left">
                                                 <li><a href="https://www.globalforestwatch.org/" target="_blank">Global Forest Watch</a></li>
                                                 <li><a href="https://earthengine.google.com/" target="_blank">Google Earth Engine</a></li>
                                             </ul>
@@ -404,7 +419,7 @@
                                 <h2>Where We Work</h2>
                             </div>
 							<div class="heading-block nomargin noline">
-								<p class="divcenter tleft bottommargin-verysm">
+                                <p class="bottommargin-verysm" style="text-align:left">
                                     SilvaCarbon engages a variety of stakeholders in the countries where it works. This includes technical specialists and program leaders from
                                     national ministries and their constituent organizations, such as forestry departments, mapping authorities, and space data agencies, as well
                                     as national research institutions and non-governmental organizations engaged in national forest and landscape monitoring and GHG inventory
@@ -414,57 +429,61 @@
 							</div>
 							<div class="heading-block nomargin noline">
 								<h3>Focal Countries</h3>
-                                <p class="divcenter tleft bottommargin-verysm">
+                                <p class="bottommargin-verysm" style="text-align:left">
                                     SilvaCarbon is global in geographic scope with a focus on tropical forested countries. To date, the program has collaborated with more than
                                     25 countries through a combination of bilateral, regional, and global engagement. Current SilvaCarbon countries and regions are shown below.
                                 </p>
-                                <div class="divcenter bottommargin">       
+                                <div class="bottommargin">       
                                     <iframe src="https://usgs.maps.arcgis.com/apps/Cascade/index.html?appid=b3cd4b9fa0b44bbd8fda42cd707d6743&embed" width="100%" height="800px" frameborder="0" scrolling="yes">
                                     </iframe>
                                 </div>
                             </div>
-                            <div class="toggle clearfix">
-								<div class="togglet">
-									<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-									<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-									<h3>Latin America and the Caribbean</h3>
-								</div>
-                                <div class="togglec clearfix">
+                            <div class="toggle">
+								<div class="toggle-header">
+									<div class="toggle-icon">
+										<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
+										<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
+									</div>
+									<div class="toggle-title toggle-h3" title="Click to expand or contract section">Latin America and the Caribbean</div>
+                                </div>
+                                <div class="toggle-content">
 									<img src="images/countries/lac1.jpg" class="rightfloat" alt="Latin America and the Caribbean" />
-									<p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         SilvaCarbon began working with the Andean Amazon countries of Ecuador, Colombia, and Peru in 2011, and in 2014 expanded to include the
                                         Central American and Caribbean countries of Costa Rica, Dominican Republic, El Salvador, Guatemala, Honduras, Nicaragua, and Panama.
                                         In 2019, SilvaCarbon began collaborating with Paraguay. 
 									</p>
-									<p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         The SilvaCarbon Latin America and Caribbean Regional Program builds capacity for national-level forest carbon Measurement, Reporting, 
                                         and Verification (MRV) for countries across the REDD+ readiness spectrum, complementing other donor efforts in the region. Countries 
                                         in the region have demonstrated significant forest monitoring progress in recent years and have advanced significantly in the use of
                                         remote sensing products and the implementation of forest inventories. Capacity gaps remain, however, and targeted assistance is needed
                                         to support results reporting, mitigation activities, and institutional strengthening to ensure long-term sustainability.
 									</p>
-									<p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         The shared language, depth of experiences, and ongoing communication and technical support across Latin and America and the Caribbean 
                                         contribute to excellent opportunities for South-South collaboration. SilvaCarbon takes advantage of these opportunities by facilitating
                                         cooperation and knowledge exchange at the regional level, empowering technical specialists from different countries to learn from one
                                         another to address shared challenges. SilvaCarbon regional support complements the bilateral support provided to individual countries.
 									</p>
-									<p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         The SilvaCarbon Latin America and Caribbean Regional Program currently focuses on three interrelated technical areas: (1) implementing
                                         national forest inventories that are consistent and can be integrated with remote sensing products generated to estimate change areas,
                                         and consistently mapping land use classes beyond forests with a replicable methodology; (2) tracking and reporting forest degradation;
                                         and (3) developing the regional community of forest and terrestrial carbon technical experts.
                                     </p>
-									<div class="toggle clearfix">
-										<div class="togglet">
-											<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-											<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-											<h5>Illustrative Program Results</h5>
-										</div>
-										<div class="togglec clearfix">
+									<div class="toggle" data-state="open">  <!-- ACTUALLY STARTS CLOSED -->
+                                        <div class="toggle-header">
+                                            <div class="toggle-icon">
+                                                <i class="toggle-closed icon-remove-circle" title="Click to contract section"></i>
+                                                <i class="toggle-open icon-ok-circle" title="Click to expand section"></i>  <!-- SWITCHED -->
+                                            </div>
+                                            <div class="toggle-title toggle-h5" title="Click to expand or contract section">Illustrative Program Results</div>
+                                        </div>
+										<div class="toggle-content" style="display:none">
 											<img src="images/countries/lac2.jpg" class="rightfloat" alt="Latin America and the Caribbean" />
 											<p class="bottommargin-verysm">
-												<ul class="tleft leftmargin results">
+												<ul class="leftmargin results" style="text-align:left">
 													<li>
                                                         With technical assistance from SilvaCarbon, Peru finalized its  <span class="hl">first forest change map</span> and is
                                                         completing the <span class="hl">first phase of its national forest inventory</span>. Ecuador also completed its 
@@ -494,52 +513,55 @@
 									</div>
 								</div>
                             </div>
-							<div class="toggle clearfix">
-								<div class="togglet">
-									<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-									<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-									<h3>Asia-Pacific</h3>
-								</div>
-								<div class="togglec clearfix">
-									<div class="toggle clearfix">
-										<div class="togglet">
-											<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-											<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-											<h4>Bangladesh Program</h4>
-										</div>
-										<div class="togglec clearfix">
+							<div class="toggle">
+								<div class="toggle-header">
+									<div class="toggle-icon">
+										<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
+										<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
+									</div>
+									<div class="toggle-title toggle-h3" title="Click to expand or contract section">Asia-Pacific</div>
+                                </div>
+								<div class="toggle-content">
+									<div class="toggle" data-state="open">  <!-- ACTUALLY STARTS CLOSED -->
+                                        <div class="toggle-header">
+                                            <div class="toggle-icon">
+                                                <i class="toggle-closed icon-remove-circle" title="Click to contract section"></i>
+                                                <i class="toggle-open icon-ok-circle" title="Click to expand section"></i>  <!-- SWITCHED -->
+                                            </div>
+                                            <div class="toggle-title toggle-h4" title="Click to expand or contract section">Bangladesh Program</div>
+                                        </div>
+										<div class="toggle-content" style="display:none">
 											<img src="images/countries/bangladesh1.jpg" class="rightfloat" style="width:250px" alt="Bangladesh" />
-											<p class="divcenter tleft bottommargin-verysm">
+                                            <p class="bottommargin-verysm" style="text-align:left">
                                                 The SilvaCarbon Bangladesh program, initiated in 2014 with funding from USAID-Bangladesh, is assisting the Bangladesh Forest
                                                 Department (BFD) and other institutions in Bangladesh with the development of the country’s first national forest monitoring
                                                 system, which includes a national forest inventory and a satellite land monitoring system. SilvaCarbon activities in Bangladesh
                                                 are closely coordinated with parallel efforts led by FAO.
 											</p>
 											<img src="images/countries/bangladesh2.jpg" class="leftfloat" style="width:250px" alt="Bangladesh" />
-											<p class="divcenter tleft bottommargin-verysm">
+                                            <p class="bottommargin-verysm" style="text-align:left">
                                                 Bangladesh’s biologically rich forests and wetlands, including the internationally recognized Sundarbans mangrove forest,
                                                 provide crucial economic, social, and environmental benefits for the country, region, and world. As one of the most
                                                 climate-vulnerable countries on Earth, Bangladesh depends on its forests and wetlands for protection against climate-related
                                                 impacts such as catastrophic floods and other disasters. The country has lost over half of its forests in the last 30 years,
                                                 however, and its remaining forested areas are critically threatened.
 											</p>
-											<p class="divcenter tleft bottommargin-verysm">
+                                            <p class="bottommargin-verysm" style="text-align:left">
                                                 The Government of Bangladesh is committed to slowing forest loss by participating in REDD+, and by building relevant technical
                                                 capacities across government, civil society, and industry. As part of those efforts, the BFD has prioritized the development
                                                 of a national forest monitoring system that leverages the strengths of both ground-based forest inventory data and remote
                                                 sensing data. SilvaCarbon is working with FAO to help the BFD achieve this goal, with coordination support from SilvaCarbon
                                                 staff based in Dhaka.
 											</p>
-                                            <div class="toggle clearfix">
-												<div class="togglet">
-													<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-													<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-													<h5>Illustrative Program Results</h5>
-												</div>
-												<div class="togglec clearfix">
+                                            <div class="clearfix">
+                                                <div class="no-toggle-header">
+                                                    <i class="no-toggle-icon icon-circle-blank"></i>
+                                                    <div class="no-toggle-title no-toggle-h5">Illustrative Program Results</div>
+                                                </div>
+												<div>
 													<img src="images/countries/bangladesh3.jpg" class="rightfloat" style="width:250px" alt="Bangladesh" />
 													<p class="bottommargin-verysm">
-														<ul class="tleft leftmargin results">
+														<ul class="leftmargin results" style="text-align:left">
 															<li>
                                                                 With assistance from SilvaCarbon, Bangladesh is now in the process of conducting its first
                                                                 <span class="hl">national forest inventory</span>, marking a major step toward sustainable forest management and
@@ -554,41 +576,42 @@
 											</div>
 										</div>
                                     </div>
-									<div class="toggle clearfix">
-										<div class="togglet">
-											<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-											<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-											<h4>Vietnam Program</h4>
-										</div>
-										<div class="togglec clearfix">
+									<div class="toggle" data-state="open">  <!-- ACTUALLY STARTS CLOSED -->
+                                        <div class="toggle-header">
+                                            <div class="toggle-icon">
+                                                <i class="toggle-closed icon-remove-circle" title="Click to contract section"></i>
+                                                <i class="toggle-open icon-ok-circle" title="Click to expand section"></i>  <!-- SWITCHED -->
+                                            </div>
+                                            <div class="toggle-title toggle-h4" title="Click to expand or contract section">Vietnam Program</div>
+                                        </div>
+										<div class="toggle-content" style="display:none">
 											<img src="images/countries/vietnam.jpg" class="leftfloat" alt="Vietnam" />
-											<p class="divcenter tleft bottommargin-verysm">
+                                            <p class="bottommargin-verysm" style="text-align:left">
                                                 SilvaCarbon began collaborating with government and research partners in Vietnam in 2013 to address the country’s priority forest
                                                 information needs. The SilvaCarbon Vietnam program provides technical support addressing key forest monitoring capacity gaps, such
                                                 as the need for national institutions to consistently collect and share forest data, generate comparable mapping products, and 
                                                 develop the national inventory of GHG emissions from land use.
 											</p>
-											<p class="divcenter tleft bottommargin-verysm">
+                                            <p class="bottommargin-verysm" style="text-align:left">
                                                 The Government of Vietnam has made significant efforts to increase the economic returns from its forested lands in order to
                                                 increase the viability of forest conservation against competing interests in forest production. Increasingly robust data on
                                                 forest and terrestrial carbon is essential for achieving national forest conservation goals and meeting international reporting
 												requirements.
 											</p>
-											<p class="divcenter tleft bottommargin-verysm">
+                                            <p class="bottommargin-verysm" style="text-align:left">
                                                 SilvaCarbon addresses three interrelated technical areas in Vietnam: (1) improving the accuracy and statistical robustness of the
                                                 national forest inventory; (2) integrating remote sensing data with ground-based forest data to enhance understanding of forest
                                                 cover and change over time; and (3) strengthening the national GHG inventory for the Agriculture, Forestry, and Other Land Use
                                                 (AFOLU) sector. Program activities in Vietnam are coordinated by a local advisor based in Hanoi.
                                             </p>
-											<div class="toggle clearfix">
-												<div class="togglet">
-													<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-													<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-													<h5>Illustrative Program Results</h5>
-												</div>
-												<div class="togglec clearfix">
+                                            <div class="clearfix">
+                                                <div class="no-toggle-header">
+                                                    <i class="no-toggle-icon icon-circle-blank"></i>
+                                                    <div class="no-toggle-title no-toggle-h5">Illustrative Program Results</div>
+                                                </div>
+												<div>
 													<p class="bottommargin-verysm">
-														<ul class="tleft leftmargin results">
+														<ul class="leftmargin results" style="text-align:left">
 															<li>
                                                                 SilvaCarbon technical assistance and training has helped key technical agencies in Vietnam (1) significantly
                                                                 increase the accuracy and data integrity of the <span class="hl">national forest inventory</span>, and demonstrate
@@ -604,15 +627,17 @@
 											</div>
 										</div>
                                     </div>
-									<div class="toggle clearfix">
-										<div class="togglet">
-											<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-											<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-											<h4>Asia-Pacific Regional Program</h4>
-										</div>
-										<div class="togglec clearfix">
+									<div class="toggle" data-state="open">  <!-- ACTUALLY STARTS CLOSED -->
+                                        <div class="toggle-header">
+                                            <div class="toggle-icon">
+                                                <i class="toggle-closed icon-remove-circle" title="Click to contract section"></i>
+                                                <i class="toggle-open icon-ok-circle" title="Click to expand section"></i>  <!-- SWITCHED -->
+                                            </div>
+                                            <div class="toggle-title toggle-h4" title="Click to expand or contract section">Asia-Pacific Regional Program</div>
+                                        </div>
+										<div class="toggle-content" style="display:none">
 											<img src="images/countries/ssea1.jpg" class="rightfloat" style="width:400px" alt="South and Southeast Asia" />
-											<p class="divcenter tleft bottommargin-verysm">
+                                            <p class="bottommargin-verysm" style="text-align:left">
                                                 The SilvaCarbon South and Southeast Asia Regional Program was initiated in 2014 to provide capacity-building support for eight
                                                 countries: Cambodia, Lao PDR, Indonesia, Nepal, the Philippines, Thailand, Bangladesh, and Vietnam. The program strategically
                                                 pairs regional support for all eight countries with country-specific support for Cambodia, Lao PDR, and Nepal. All program
@@ -620,28 +645,27 @@
                                                 various partners including the SERVIR-Mekong and SERVIR-Hindu Kush Himalaya hubs.
 											</p>
 											<img src="images/countries/ssea2.jpg" class="leftfloat" style="width:300px" alt="South and Southeast Asia" />
-											<p class="divcenter tleft bottommargin-verysm">
+                                            <p class="bottommargin-verysm" style="text-align:left">
                                                 Forest conservation and management is a priority for countries throughout South and Southeast Asia, particularly as national
                                                 governments work to transparently report emissions from the Agriculture, Forestry, and Other Land Use (AFOLU) sector. Most
                                                 countries in the region have included AFOLU-related activities in their national plans and strategies, and some countries have
                                                 developed forest-specific emission reduction targets (i.e. Cambodia, Lao PDR, Indonesia, Nepal, the Philippines, and Vietnam).
 											</p>
-											<p class="divcenter tleft bottommargin-verysm">
+                                            <p class="bottommargin-verysm" style="text-align:left">
                                                 SilvaCarbon programming in South and Southeast Asia currently focuses on two key areas: 1) developing forest mapping and
                                                 reporting products while building in-country capacities to generate future products, and 2) designing long-term spatial data
                                                 management strategies that feed into national forest monitoring systems and contribute to complete and consistent
                                                 representation of national land bases.
 											</p>
-											<div class="toggle clearfix">
-												<div class="togglet">
-													<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-													<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-													<h5>Illustrative Program Results</h5>
+                                            <div class="clearfix">
+                                                <div class="no-toggle-header">
+                                                    <i class="no-toggle-icon icon-circle-blank"></i>
+                                                    <div class="no-toggle-title no-toggle-h5">Illustrative Program Results</div>
                                                 </div>
-												<div class="togglec clearfix">
+												<div>
 													<img src="images/countries/ssea3.jpg" class="rightfloat" style="width:250px" alt="South and Southeast Asia" />
 													<p class="bottommargin-verysm">
-														<ul class="tleft leftmargin results">
+														<ul class="leftmargin results" style="text-align:left">
 															<li>
                                                                 Forestry agencies in Cambodia, Lao PDR, and Nepal have 
                                                                 <span class="hl">improved the accuracy of their forest cover change estimates</span> through collaboration
@@ -661,18 +685,20 @@
 														</ul>
 													</p>
 												</div>
-											</div>	
+											</div>
 										</div>
 									</div>
 								</div>	
                             </div>
-							<div class="toggle clearfix">
-								<div class="togglet">
-									<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-									<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-									<h3>Africa</h3>
-								</div>
-								<div class="togglec clearfix">
+							<div class="toggle">
+								<div class="toggle-header">
+									<div class="toggle-icon">
+										<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
+										<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
+									</div>
+									<div class="toggle-title toggle-h3" title="Click to expand or contract section">Africa</div>
+                                </div>
+								<div class="toggle-content">
 								   <div style="width:220px; float:left">
 									   <img src="images/countries/africa1.jpg" style="padding: 0px 10px 10px 0px" alt="Africa" />
 									   <img src="images/countries/africa2.jpg" style="padding: 0px 10px 10px 0px" alt="Africa" />
@@ -680,36 +706,38 @@
 								   <div style="width:220px; float:right" >
 									   <img src="images/countries/africa3.jpg" style="margin: 0px 0px 10px 10px" alt="Africa" />
 									   <img src="images/countries/africa4.jpg" style="margin: 0px 0px 10px 10px" alt="Africa" />
-								   </div>
-                                   <p class="divcenter tleft bottommargin-verysm">
+                                    </div>
+									<p class="bottommargin-verysm" style="text-align:left">
                                         In 2014 SilvaCarbon began providing bilateral support to Democratic Republic of the Congo (DRC), Republic of Congo (ROC), and Cameroon
                                         with the goal of complementing existing support from the Central Africa Regional Program for the Environment (CARPE). A principle CARPE
                                         objective is to strengthen capacities to monitor forest cover change, GHG emissions, and biodiversity. In 2019, SilvaCarbon initiated
                                         collaboration with Zambia and Ethiopia, in support of the 
                                         <a href="https://www.biocarbonfund-isfl.org/" target="_blank">BioCarbon Fund Initiative for Sustainable Forest Landscapes (ISFL)</a>.
                                     </p>
-                                    <p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         The Central African Congo Basin is the second-largest humid tropical forest in the world and is widely recognized as a global priority
                                         for forest and carbon conservation and management. A number of Congo Basin countries have committed to reducing forest loss and
                                         associated emissions and are working with different international partners to meet those commitments. National stakeholders in the
                                         region have sought technical support in developing cost-effective forest and landscape monitoring approaches and systems that are
                                         suited to the Congo Basin’s large, dense, and often inaccessible forests.
                                     </p>
-                                    <p class="divcenter tleft bottommargin-verysm">
+									<p class="bottommargin-verysm" style="text-align:left">
                                         SilvaCarbon complements other donor efforts in the region by working with DRC, ROC, and Cameroon to address specific forest monitoring
                                         needs and gaps. This ranges from building foundational capacities for REDD+, developing tailored forest mapping methodologies, and
                                         incorporating different forest types such as carbon-rich wetland forests into existing forest inventory frameworks. In-country
                                         SilvaCarbon coordinators help ensure relevancy of programming and support activity implementation.
                                     </p>
-									<div class="toggle clearfix">
-										<div class="togglet">
-											<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-											<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-											<h5>Illustrative Program Results</h5>
-										</div>
-										<div class="togglec clearfix">
+									<div class="toggle" data-state="open">  <!-- ACTUALLY STARTS CLOSED -->
+                                        <div class="toggle-header">
+                                            <div class="toggle-icon">
+                                                <i class="toggle-closed icon-remove-circle" title="Click to contract section"></i>
+                                                <i class="toggle-open icon-ok-circle" title="Click to expand section"></i>  <!-- SWITCHED -->
+                                            </div>
+                                            <div class="toggle-title toggle-h5" title="Click to expand or contract section">Illustrative Program Results</div>
+                                        </div>
+										<div class="toggle-content" style="display:none">
 											<p class="bottommargin-verysm">
-												<ul class="tleft leftmargin results">
+												<ul class="leftmargin results" style="text-align:left">
 													<li>
                                                         In ROC, SilvaCarbon has supported the National Forest Inventory Center (CNIAF) on adapting forest inventory methodologies
                                                         for difficult-to-access peatland and mangrove forests, and is working with field teams to complete initial inventory plots
@@ -732,34 +760,38 @@
 									</div>
                                 </div>
                             </div>
-							<div class="toggle clearfix">
-								<div class="togglet">
-									<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-									<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-									<h3>Global</h3>
-								</div>
-								<div class="togglec clearfix">
+							<div class="toggle">
+								<div class="toggle-header">
+									<div class="toggle-icon">
+										<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
+										<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
+									</div>
+									<div class="toggle-title toggle-h3" title="Click to expand or contract section">Global</div>
+                                </div>
+								<div class="toggle-content">
 									<div data-lightbox="gallery" style="margin-bottom:30px;text-align:center">
 									   <img src="images/countries/global1.jpg" data-lightbox="gallery-item" style="height:180px" alt="Global" />
 									   <img src="images/countries/global2.jpg" data-lightbox="gallery-item" style="height:180px" alt="Global" />
 									   <img src="images/countries/global3.jpg" data-lightbox="gallery-item" style="height:180px" alt="Global" />
-								   </div>
-									<p class="divcenter tleft bottommargin-verysm">
+                                    </div>
+									<p class="bottommargin-verysm" style="text-align:left">
                                         SilvaCarbon builds forest and landscape monitoring capacity at the global level by supporting the development of key tools, guidance
                                         materials, and capacity-building resources; by increasing access to and application of Earth observation data; and by facilitating
                                         coordination among USG agencies and international institutions. SilvaCarbon has also supported 
                                         <a href="#research" data-scrollto="#research" class="hl">applied research</a> focused on identifying and implementing methodologies
                                         and technologies for measuring and monitoring forest degradation.
 									</p>
-									<div class="toggle clearfix">
-										<div class="togglet">
-											<i class="toggle-closed icon-ok-circle" title="Click to expand section"></i>
-											<i class="toggle-open icon-remove-circle" title="Click to contract section"></i>
-											<h5>Illustrative Program Results</h5>
-										</div>
-										<div class="togglec clearfix">
+									<div class="toggle" data-state="open">  <!-- ACTUALLY STARTS CLOSED -->
+                                        <div class="toggle-header">
+                                            <div class="toggle-icon">
+                                                <i class="toggle-closed icon-remove-circle" title="Click to contract section"></i>
+                                                <i class="toggle-open icon-ok-circle" title="Click to expand section"></i>  <!-- SWITCHED -->
+                                            </div>
+                                            <div class="toggle-title toggle-h5" title="Click to expand or contract section">Illustrative Program Results</div>
+                                        </div>
+										<div class="toggle-content" style="display:none">
 											<p class="bottommargin-verysm">
-												<ul class="tleft leftmargin results">
+												<ul class="leftmargin results" style="text-align:left">
 													<li>
                                                         SilvaCarbon, in partnership with GFOI, provides a mechanism for 
                                                         <span class="hl">linking developing country partners with satellite data providers</span> to increase the availability
@@ -772,7 +804,7 @@
                                                                 SilvaCarbon has also contributed to the development of key 
                                                                 <span class="hl">forest and carbon monitoring tools</span>, including:
                                                         </p>
-														<ul class="tleft leftmargin results">
+														<ul class="leftmargin results" style="text-align:left">
 															<li>
                                                                 The Global Forest Observations Initiative (GFOI) 
                                                                 <a href="http://www.fao.org/gfoi/components/methods-and-guidance-documentation/en/" target="_blank" class="hl">
@@ -805,17 +837,17 @@
                                 <h2>Activities</h2>
                             </div>
                             <div class="center bottommargin-sm">
-                                <p class="divcenter tleft">
+                                <p style="text-align:left">
                                     SilvaCarbon supports a variety of capacity-building activities that respond to countries’ forest and landscape monitoring needs. Program 
                                     activities are collaboratively designed to target capacity gaps and complement related assistance provided by other donors and institutions.
                                     SilvaCarbon engages country participants through direct technical assistance and hands-on training, tailored workshops on key topics, 
                                     international study tours, South-South exchanges between countries, development of tools and methodological guidance, and applied research.
                                 </p>
-                                <img src="images/capacity_building_activities.jpg" alt="Capacity Building Activities" class="fnone bottommargin-sm" />
+                                <img src="images/capacity_building_activities.jpg" alt="Capacity Building Activities" class="center fnone bottommargin-sm" />
                             </div>
                             <div class="heading-block center nomargin noline">
                                 <h4 class="lowercase-heading-block">Activity Calendar</h4>
-                                <p class="center tleft">
+                                <p class="center" style="text-align:left">
                                     Click on the calendar image to view upcoming SilvaCarbon activities
                                 </p>
                             </div>
@@ -828,7 +860,7 @@
                             </div>
                             <div class="heading-block center nomargin noline">
                                 <h4 class="lowercase-heading-block">Activity Archives</h4>
-								<p class="center tleft">Access reports and materials from selected past SilvaCarbon activities</p>
+								<p class="center" style="text-align:left">Access reports and materials from selected past SilvaCarbon activities</p>
                             </div>
                             <div class="row">
                                 <div class="col-md-2 col-sm-2 center">
@@ -921,16 +953,16 @@
                             <div class="section-heading-block heading-block nomargin noline">
                                 <h2>Newsletter</h2>
                             </div>
-                            <div class="row topmargin-sm divcenter">
+                            <div class="row topmargin-sm">
                                 <div class="col-sm-4 col-md-4 center">
                                     <img src="images/spotlight.png" alt="Silvacarbon Spotlight" />
                                 </div>
-                                <div class="col-sm-8 col-md-8 tleft">
+                                <div class="col-sm-8 col-md-8" style="text-align:left">
                                     <div>
                                         The SilvaCarbon Spotlight is the electronic newsletter of the SilvaCarbon Program.  It provides quarterly updates on program
                                         activities, events, publications, and related developments.
                                     </div>
-                                    <div class="row topmargin-sm divcenter">
+                                    <div class="row topmargin-sm">
                                         <div class="col-sm-4 col-md-4 center">
                                             <a href="https://us9.campaign-archive.com/?u=39924f2d13878a6d127e80fa9&id=dabc3f3a95" target="_blank">
                                                 <h4>Current Issue</h4>
@@ -956,10 +988,10 @@
                             <div class="section-heading-block heading-block nomargin noline">
                                 <h2>Publications</h2>
                             </div>
-                            <div class="heading-block center nomargin noline">
-                                <h4 class="tleft">MINAM Develops Early Alert System for Deforestation</h4>
+                            <div class="heading-block nomargin noline">
+                                <h4 style="text-align:left">MINAM Develops Early Alert System for Deforestation</h4>
                                 <img src="images/minam.png" alt="Ministerio del Ambiente" class="leftfloat" />
-                                <p class="divcenter tleft bottommargin-verysm">
+                                <p class="bottommargin-verysm" style="text-align:left">
                                     Peru has successfully developed an early alert system for detecting deforestation, building on technical support provided by the
                                     SilvaCarbon program since 2012. The early alert system uses freely available Landsat satellite data to detect and transparently
                                     share up-to-date information about forest cover loss occurring in the humid tropical forests of the Peruvian Amazon. These efforts
@@ -975,11 +1007,11 @@
                                     </a>.
                                 </p>
                             </div>
-                            <div class="heading-block center nomargin noline">
-                                <h4 class="tleft">GFOI Launches Inventory of Activities</h4>
-                                <div class="togglec clearfix">
+                            <div class="heading-block nomargin noline">
+                                <h4 style="text-align:left">GFOI Launches Inventory of Activities</h4>
+                                <div class="clearfix">
                                     <img src="images/gfoi.png" alt="GFOI" class="leftfloat" />
-                                    <p class="divcenter tleft bottommargin-verysm">
+                                    <p class="bottommargin-verysm" style="text-align:left">
                                         The <a href="http://www.fao.org/gfoi/home/en/" target="_blank">Global Forest Observations Initiative (GFOI)</a> partners launched the
                                         first comprehensive portal to track international capacity development support for forest monitoring.
                                         The <a href="http://www.fao.org/gfoi/activities/en/" target="_blank">GFOI Inventory of Activities</a> is a one-stop shop with 
@@ -996,8 +1028,8 @@
                                 </div>
                             </div>
                             <div class="heading-block center nomargin noline">
-                                <h4 class="tleft">Synthetic Aperture Radar (SAR)</h4>
-                                <p class="tleft bottommargin-verysm">
+                                <h4 style="text-align:left">Synthetic Aperture Radar (SAR)</h4>
+                                <p class="bottommargin-verysm" style="text-align:left">
                                     SERVIR announces release of the
                                     <a href="https://www.servirglobal.net/Global/Articles/Article/2697/release-of-synthetic-aperture-radar-sar-handbook-to-empower-the-monitoring-and" target="_blank">
                                         Synthetic Aperture Radar (SAR) Handbook
@@ -1017,7 +1049,7 @@
                                 <h2>Research</h2>
                             </div>
                             <div class="container clearfix">
-                                <div class="entry-image fright">
+                                <div class="entry-image" style="float:right">
                                     <div class="fslider" data-arrows="false" data-lightbox="gallery">
                                         <div class="flexslider">
                                             <div class="slider-wrap">
@@ -1046,15 +1078,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="center">
-                                    <p class="divcenter tleft bottommargin-verysm">
-                                        SilvaCarbon has supported eleven applied research grants addressing practical carbon measurement challenges identified by country
-                                        partners. These grants, initiated in 2013 and 2014, examined the use of emerging approaches to monitoring forest degradation, 
-                                        the interoperability of different remote sensing systems and sensors, and carbon estimation methodologies. Findings from the research
-                                        support SilvaCarbon capacity-building efforts and help to strengthen the scientific basis for forest and landscape monitoring efforts
-                                        worldwide.
-                                    </p>
-                                </div>
+                                <p class="bottommargin-verysm" style="text-align:left">
+                                    SilvaCarbon has supported eleven applied research grants addressing practical carbon measurement challenges identified by country
+                                    partners. These grants, initiated in 2013 and 2014, examined the use of emerging approaches to monitoring forest degradation, 
+                                    the interoperability of different remote sensing systems and sensors, and carbon estimation methodologies. Findings from the research
+                                    support SilvaCarbon capacity-building efforts and help to strengthen the scientific basis for forest and landscape monitoring efforts
+                                    worldwide.
+                                </p>
                             </div>
                             <div class="clearfix">
                                 <div class="research_entry">
@@ -1066,17 +1096,15 @@
                                         <div class="research-pi">
                                             PIs: Prof. M. Herold, Dr. V. Avitabile, and K. Calders (Wageningen University), Dr. L. Verchot and Dr. C. Martius (CIFOR Indonesia)
                                         </div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                Improving forest emission estimates requires better biomass measurements before and after the change events at local levels, and the
-                                                effective use and integration with remote sensing data to monitor impacts over larger areas. Novel technologies such as terrestrial
-                                                laser scanning that provide detailed 3D measurements of tree, canopy structure and allometry rapidly and non-destructively, and the
-                                                use of high-resolution remote sensing time series (i.e. from RapidEye) offer avenues to increase REDD+ measurement accuracy and
-                                                precision and support improved monitoring capacities in developing countries. The research team aimed to use both in combination to 
-                                                systematically explore this potential by improving the underlying science, conduct a research synthesis across multiple tropical
-                                                tests site, and make a direct contribution to monitoring and training in REDD+ countries.
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            Improving forest emission estimates requires better biomass measurements before and after the change events at local levels, and the
+                                            effective use and integration with remote sensing data to monitor impacts over larger areas. Novel technologies such as terrestrial
+                                            laser scanning that provide detailed 3D measurements of tree, canopy structure and allometry rapidly and non-destructively, and the
+                                            use of high-resolution remote sensing time series (i.e. from RapidEye) offer avenues to increase REDD+ measurement accuracy and
+                                            precision and support improved monitoring capacities in developing countries. The research team aimed to use both in combination to 
+                                            systematically explore this potential by improving the underlying science, conduct a research synthesis across multiple tropical
+                                            tests site, and make a direct contribution to monitoring and training in REDD+ countries.
+                                        </p>
                                         <div class="research_outcomes">Outcomes</div>
                                         <div class="research_citations">
                                             <dl>
@@ -1112,19 +1140,17 @@
                                     </div>
                                     <div class="research_content clearfix">
                                         <div class="research-pi">PIs: Michael Keller (USDA Forest Service) and Ted Feldpausch (University of Exeter, INPA, and UNEMAT)</div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                Degraded forests are poorly studied. Despite the rapidly accumulating number of lidar studies, degraded forests are rarely used
-                                                for calibration. With the exception of some long-term studies of logging, permanent tropical forest research plots have generally
-                                                avoided degraded forests. Lidar studies of degraded forest structure, particularly for forests that have suffered understory fires,
-                                                are rare although there are excellent counter-examples of specific studies in logged forests.
-                                            </p>
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                This study aimed to resolve whether field calibration in degraded forest is necessary for accurate lidar biomass estimation in
-                                                degraded forests. The research team tested whether lidar biomass calibrations developed from old-growth and secondary forests or
-                                                “universal” approaches are sufficient for biomass estimation in degraded forests.
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            Degraded forests are poorly studied. Despite the rapidly accumulating number of lidar studies, degraded forests are rarely used
+                                            for calibration. With the exception of some long-term studies of logging, permanent tropical forest research plots have generally
+                                            avoided degraded forests. Lidar studies of degraded forest structure, particularly for forests that have suffered understory fires,
+                                            are rare although there are excellent counter-examples of specific studies in logged forests.
+                                        </p>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            This study aimed to resolve whether field calibration in degraded forest is necessary for accurate lidar biomass estimation in
+                                            degraded forests. The research team tested whether lidar biomass calibrations developed from old-growth and secondary forests or
+                                            “universal” approaches are sufficient for biomass estimation in degraded forests.
+                                        </p>
                                         <div class="research_outcomes">Outcomes</div>
                                         <div class="research_citations">
                                             <dl>
@@ -1149,17 +1175,15 @@
                                     </div> 
                                     <div class="research_content clearfix">
                                         <div class="research-pi">PIs: Dr. Pontus Olofsson (Boston University)</div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                In this proposal, the research team proposed an alternative method for monitoring land change that makes use of all available
-                                                observations ever acquired by the Landsat satellite for a pixel. Studying a time series of observations rather than comparing
-                                                individual images or maps makes it possible to continuously monitor the land cover at pixel-level in time. While never implemented
-                                                in Colombia, the proposed methodology has proven capable of mapping stable and changing land cover with high levels of accuracy
-                                                and certainty. This research evaluates the full utility of US satellite data for the development of MRV systems in
-                                                deforestation hotspots. It provides a methodology compliant with IPCC Approach 3 for securing activity data for Colombia, and
-                                                when combined with emission factors provide estimates of carbon emissions and removals as a result of land transitions.
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            In this proposal, the research team proposed an alternative method for monitoring land change that makes use of all available
+                                            observations ever acquired by the Landsat satellite for a pixel. Studying a time series of observations rather than comparing
+                                            individual images or maps makes it possible to continuously monitor the land cover at pixel-level in time. While never implemented
+                                            in Colombia, the proposed methodology has proven capable of mapping stable and changing land cover with high levels of accuracy
+                                            and certainty. This research evaluates the full utility of US satellite data for the development of MRV systems in
+                                            deforestation hotspots. It provides a methodology compliant with IPCC Approach 3 for securing activity data for Colombia, and
+                                            when combined with emission factors provide estimates of carbon emissions and removals as a result of land transitions.
+                                        </p>
                                         <div class="research_outcomes">Outcomes</div>
                                         <div class="research_citations">
                                             <dl>
@@ -1190,22 +1214,20 @@
                                     </div> 
                                     <div class="research_content clearfix">
                                         <div class="research-pi">PIs: Dr. Jennifer K. Balch (Penn State University)</div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                Human-caused disturbance to tropical forests, such as through intentional use and resource extraction or through unintentional
-                                                wildfires, cause substantial losses of carbon stocks. But does tropical forest degradation lead to permanent carbon losses? This
-                                                is a critical question to address in the context of policy discussions to implement REDD+ (Reduced Emissions from Deforestation
-                                                and Forest Degradation Plus enhancement of forest carbon stocks through conservation and sustainable forest management). We
-                                                proposed to review the current scientific knowledge about the temporal and spatial dynamics of degradation--‐induced carbon
-                                                emissions to build a coherent picture of the pattern of emissions from different types of degradation across tropical forest
-                                                regions. Using best available information, we will: i) develop emissions factors (per area) for different types and scenarios of
-                                                degradation; ii) describe the temporal pattern of degradation emissions and recovery trajectory post--‐disturbance; and iii)
-                                                assess the evidence that demonstrates how tropical forest degradation leads to a lower carbon state, either through arrested
-                                                succession, a switch to an alternate vegetation state, or facilitation of future deforestation. The overarching goal of this
-                                                research is to synthesize existing knowledge on the range of initial gross and longer-term net carbon emissions from different
-                                                types of degradation activities across tropical regions.
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            Human-caused disturbance to tropical forests, such as through intentional use and resource extraction or through unintentional
+                                            wildfires, cause substantial losses of carbon stocks. But does tropical forest degradation lead to permanent carbon losses? This
+                                            is a critical question to address in the context of policy discussions to implement REDD+ (Reduced Emissions from Deforestation
+                                            and Forest Degradation Plus enhancement of forest carbon stocks through conservation and sustainable forest management). We
+                                            proposed to review the current scientific knowledge about the temporal and spatial dynamics of degradation--‐induced carbon
+                                            emissions to build a coherent picture of the pattern of emissions from different types of degradation across tropical forest
+                                            regions. Using best available information, we will: i) develop emissions factors (per area) for different types and scenarios of
+                                            degradation; ii) describe the temporal pattern of degradation emissions and recovery trajectory post--‐disturbance; and iii)
+                                            assess the evidence that demonstrates how tropical forest degradation leads to a lower carbon state, either through arrested
+                                            succession, a switch to an alternate vegetation state, or facilitation of future deforestation. The overarching goal of this
+                                            research is to synthesize existing knowledge on the range of initial gross and longer-term net carbon emissions from different
+                                            types of degradation activities across tropical regions.
+                                        </p>
                                         <div class="research_outcomes">Outcomes</div>
                                         <div class="research_citations">
                                             <dl>
@@ -1228,18 +1250,16 @@
                                             PIs: Ronald E. McRoberts (USFS),  Michael Keller (USFS), Douglas C. Morton (NASA) and Erik Næsset 
                                             (Norwegian University of Life Sciences)
                                         </div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                Deforestation and forest degradation account for nearly 20% of global greenhouse gas emissions, more than any sector other than the
-                                                energy sector (UN REDD, 2009). REDD (Reducing Emissions from Deforestation and Forest Degradation in Developing Countries) is a
-                                                mechanism designed under the United National Framework Convention on Climate Change to financially support developing countries that
-                                                are willing and able to reduce emissions from deforestation and invest in low carbon paths to sustainable development. The term
-                                                deforestation refers to the permanent removal of forests and withdrawal of land from forest use, whereas the term forest degradation
-                                                refers to detrimental changes that limit a forest’s production capacity. A relevant question pertains to the persistence component
-                                                of degradation, i.e., is a forest degraded if it recovers from detrimental change that only temporarily limits its productivity? The
-                                                overall objective of the proposal is to elaborate the definition of degradation by clarifying the persistence component. 
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            Deforestation and forest degradation account for nearly 20% of global greenhouse gas emissions, more than any sector other than the
+                                            energy sector (UN REDD, 2009). REDD (Reducing Emissions from Deforestation and Forest Degradation in Developing Countries) is a
+                                            mechanism designed under the United National Framework Convention on Climate Change to financially support developing countries that
+                                            are willing and able to reduce emissions from deforestation and invest in low carbon paths to sustainable development. The term
+                                            deforestation refers to the permanent removal of forests and withdrawal of land from forest use, whereas the term forest degradation
+                                            refers to detrimental changes that limit a forest’s production capacity. A relevant question pertains to the persistence component
+                                            of degradation, i.e., is a forest degraded if it recovers from detrimental change that only temporarily limits its productivity? The
+                                            overall objective of the proposal is to elaborate the definition of degradation by clarifying the persistence component. 
+                                        </p>
                                         <div class="research_outcomes">Outcomes</div>
                                         <div class="research_citations">
                                             <dl>
@@ -1268,16 +1288,14 @@
                                     </div> 
                                     <div class="research_content clearfix">
                                         <div class="research-pi">PIs: James E. Vogelmann, (USGS), Michael Wimberly (South Dakota State University)</div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                The purpose of this proposed work is to explore the use of Landsat time series data for mapping and monitoring forest degradation
-                                                in Vietnam. The degradation caused by tree harvest and slash and burn agriculture is of serious concern in Vietnam (Manley et al.,
-                                                2013). The proposed work fits under the SilvaCarbon “third stream of work on degradation,” whereby alternative approaches are being
-                                                solicited for detecting, measuring and monitoring tropical forest degradation. In general, the spatial, spectral and radiometric
-                                                qualities of Landsat data are particularly well suited for providing landscape characterization, and monitoring degradation in
-                                                tropical environments (Hansen et al., 2008; Lambin, 1999).
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            The purpose of this proposed work is to explore the use of Landsat time series data for mapping and monitoring forest degradation
+                                            in Vietnam. The degradation caused by tree harvest and slash and burn agriculture is of serious concern in Vietnam (Manley et al.,
+                                            2013). The proposed work fits under the SilvaCarbon “third stream of work on degradation,” whereby alternative approaches are being
+                                            solicited for detecting, measuring and monitoring tropical forest degradation. In general, the spatial, spectral and radiometric
+                                            qualities of Landsat data are particularly well suited for providing landscape characterization, and monitoring degradation in
+                                            tropical environments (Hansen et al., 2008; Lambin, 1999).
+                                        </p>
                                         <div class="research_outcomes">Outcomes</div>
                                         <div class="research_citations">
                                             <dl>
@@ -1298,24 +1316,22 @@
                                     </div> 
                                     <div class="research_content clearfix">
                                         <div class="research-pi">PIs: Dr. Hans-Erik Andersen (USDA Forest Service)</div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                Previous studies conducted at Antimary State Forest (western Brazilian Amazon) have indicated that low-intensity selective logging
-                                                activities can be detected using three-dimensional canopy structure information derived from measurements from airborne laser scanning
-                                                data (d’Oliveira et al., 2012). Using very-high-density lidar data (> 24 pulses/sq.m.), a relative density model (RDM) can be developed
-                                                that represents the density of lidar returns (and vegetation) within a layer in the forest canopy between 1 and 5 meters height above
-                                                ground. Variability in the density within this layer was found to be highly sensitive to forest impacts associated with selective
-                                                logging, such as the development of skid trails and logging roads. A more recent study utilized multi-temporal airborne lidar data sets
-                                                to quantify the reduction in biomass/aboveground carbon due to selective logging activities (Andersen et al., in review). This study
-                                                shows that even relatively low levels of biomass change (10-20 Mg/ha) could be detected and quantified using changes observed in
-                                                airborne lidar structural metrics. While the results of these studies are highly encouraging and indicate the potential utility of
-                                                airborne lidar as a tool in detecting and characterizing forest degradation in tropical areas, there are several remaining critical
-                                                research questions that will determine practical value of lidar for this application. For example, it is unclear how much the lidar
-                                                density can be reduced and still maintain an adequate level of accuracy. The lidar data used in these studies was very high density
-                                                (24 pulses/sq.m. and 10 pulses/sq.m. for 2010 and 2011 data respectively). While these densities were appropriate for research
-                                                studies, they are not economically feasible for large-area acquisitions, where we would expect densities closer to 1-4 pulses/sq.m.
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            Previous studies conducted at Antimary State Forest (western Brazilian Amazon) have indicated that low-intensity selective logging
+                                            activities can be detected using three-dimensional canopy structure information derived from measurements from airborne laser scanning
+                                            data (d’Oliveira et al., 2012). Using very-high-density lidar data (> 24 pulses/sq.m.), a relative density model (RDM) can be developed
+                                            that represents the density of lidar returns (and vegetation) within a layer in the forest canopy between 1 and 5 meters height above
+                                            ground. Variability in the density within this layer was found to be highly sensitive to forest impacts associated with selective
+                                            logging, such as the development of skid trails and logging roads. A more recent study utilized multi-temporal airborne lidar data sets
+                                            to quantify the reduction in biomass/aboveground carbon due to selective logging activities (Andersen et al., in review). This study
+                                            shows that even relatively low levels of biomass change (10-20 Mg/ha) could be detected and quantified using changes observed in
+                                            airborne lidar structural metrics. While the results of these studies are highly encouraging and indicate the potential utility of
+                                            airborne lidar as a tool in detecting and characterizing forest degradation in tropical areas, there are several remaining critical
+                                            research questions that will determine practical value of lidar for this application. For example, it is unclear how much the lidar
+                                            density can be reduced and still maintain an adequate level of accuracy. The lidar data used in these studies was very high density
+                                            (24 pulses/sq.m. and 10 pulses/sq.m. for 2010 and 2011 data respectively). While these densities were appropriate for research
+                                            studies, they are not economically feasible for large-area acquisitions, where we would expect densities closer to 1-4 pulses/sq.m.
+                                        </p>
                                         <div class="research_outcomes">Outcomes</div>
                                         <div class="research_citations">
                                             <dl>
@@ -1336,17 +1352,15 @@
                                     </div> 
                                     <div class="research_content clearfix">
                                         <div class="research-pi">PIs: Dr. Sassan Saatchi (UCLA), Dr. John Poulsen and Dr. Vincent Medjibe (Duke University)</div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                In Central African countries, where deforestation has historically been low, but where logging occurs in over 70% of the forests
-                                                in some countries, forest degradation may be the most important source of carbon emissions. The uncertainty in quantifying the area
-                                                affected and the carbon loss through degradation, particularly from selective logging, is large because conventional methods of
-                                                remote sensing and surveying are not sensitive enough to precisely measure degradation. However, advances in high resolution remote
-                                                sensing techniques using Light Detection and Ranging (LiDAR) provide an opportunity to improve NFMS by accurately monitoring areas
-                                                affected by degradation, quantifying the emission factors from different types of logging and estimating carbon sequestration after
-                                                degradation.
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            In Central African countries, where deforestation has historically been low, but where logging occurs in over 70% of the forests
+                                            in some countries, forest degradation may be the most important source of carbon emissions. The uncertainty in quantifying the area
+                                            affected and the carbon loss through degradation, particularly from selective logging, is large because conventional methods of
+                                            remote sensing and surveying are not sensitive enough to precisely measure degradation. However, advances in high resolution remote
+                                            sensing techniques using Light Detection and Ranging (LiDAR) provide an opportunity to improve NFMS by accurately monitoring areas
+                                            affected by degradation, quantifying the emission factors from different types of logging and estimating carbon sequestration after
+                                            degradation.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="research_entry">
@@ -1356,17 +1370,16 @@
                                     </div> 
                                     <div class="research_content clearfix">
                                         <div class="research-pi">
-                                            PIs: Charles T. Scott (USDA Forest Service), Doug Muchoney (USGS), Andrew Lister (USDA Forest Service), and John Poulsen (Duke University)
+                                            PIs: Charles T. Scott (USDA Forest Service), Doug Muchoney (USGS), Andrew Lister (USDA Forest Service),
+                                            and John Poulsen (Duke University)
                                         </div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                There are two general approaches to carbon estimation that show promise for MRV-model-based and model-assisted estimation. Model-based
-                                                estimation in the context of forest attribute mapping relies on a set of modeled, pixel-based estimates, generally in the form of a
-                                                map derived from remotely sensed data. Precision estimates can come from analyzing the set of pixel values, their uncertainties, and
-                                                their spatial covariance. Model-assisted estimation is based on a probabilistic design in which ground plots along with auxiliary data
-                                                from maps derived from remote sensing are used to generate estimates of forest parameters and their variance.
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            There are two general approaches to carbon estimation that show promise for MRV-model-based and model-assisted estimation. Model-based
+                                            estimation in the context of forest attribute mapping relies on a set of modeled, pixel-based estimates, generally in the form of a
+                                            map derived from remotely sensed data. Precision estimates can come from analyzing the set of pixel values, their uncertainties, and
+                                            their spatial covariance. Model-assisted estimation is based on a probabilistic design in which ground plots along with auxiliary data
+                                            from maps derived from remote sensing are used to generate estimates of forest parameters and their variance.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="research_entry">
@@ -1379,29 +1392,27 @@
                                             PIs: Matthew Hansen (University of Maryland), Peter Potapov (University of Maryland), Alexandra Tyukavina (University of Maryland),
                                             and Ifo Averti Suspense (University of Marien Ngouabi, Republic of Congo)
                                         </div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                The Republic of Congo is one of a subset of countries where the suspected dominant factor in greenhouse gas emissions from land use
-                                                change is forest degradation rather than deforestation. For a region such as central Africa, where few trees are harvested per
-                                                hectare, direct methods of mapping partial canopy cover are not feasible. Indirect methods have been implemented to delineate
-                                                degraded natural forests. Such approaches use indications of human activity to assign degradation to adjacent natural forests.
-                                                Quantifying biomass dynamics within degraded forests is a challenge.
-                                            </p>
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                This study combines remotely sensed-derived degradation time-series maps with field data collection to assess biomass change within
-                                                the logged forests of the Republic of Congo. By combining time-series of indirectly mapped degradation, the research team has in
-                                                effect swap space for time, targeting forests of varying intervals since disturbance. Additionally, directly observable forest
-                                                cover loss due to infrastructure development in support of logging will be employed to estimate aboveground biomass loss.
-                                            </p>
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                This research integrates large area forest monitoring data from earth observations and in situ inventory data. Forest degradation
-                                                maps helps target the allocation of biomass plots in assessing carbon stock dynamics within logged areas. The research will advance
-                                                national-scale RoC monitoring by developing a new method for integrating remotely sensed-derived forest cover loss and degradation
-                                                maps with inventory data collection. The proposed activity quantifies carbon loss and gain through the life cycle of RoC logging
-                                                concessions by sampling various aged concessions from 1990 to present. In doing so, a targeted method for quantifying carbon stock
-                                                changes due to logging activities is realized.
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            The Republic of Congo is one of a subset of countries where the suspected dominant factor in greenhouse gas emissions from land use
+                                            change is forest degradation rather than deforestation. For a region such as central Africa, where few trees are harvested per
+                                            hectare, direct methods of mapping partial canopy cover are not feasible. Indirect methods have been implemented to delineate
+                                            degraded natural forests. Such approaches use indications of human activity to assign degradation to adjacent natural forests.
+                                            Quantifying biomass dynamics within degraded forests is a challenge.
+                                        </p>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            This study combines remotely sensed-derived degradation time-series maps with field data collection to assess biomass change within
+                                            the logged forests of the Republic of Congo. By combining time-series of indirectly mapped degradation, the research team has in
+                                            effect swap space for time, targeting forests of varying intervals since disturbance. Additionally, directly observable forest
+                                            cover loss due to infrastructure development in support of logging will be employed to estimate aboveground biomass loss.
+                                        </p>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            This research integrates large area forest monitoring data from earth observations and in situ inventory data. Forest degradation
+                                            maps helps target the allocation of biomass plots in assessing carbon stock dynamics within logged areas. The research will advance
+                                            national-scale RoC monitoring by developing a new method for integrating remotely sensed-derived forest cover loss and degradation
+                                            maps with inventory data collection. The proposed activity quantifies carbon loss and gain through the life cycle of RoC logging
+                                            concessions by sampling various aged concessions from 1990 to present. In doing so, a targeted method for quantifying carbon stock
+                                            changes due to logging activities is realized.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="research_entry">
@@ -1411,23 +1422,21 @@
                                     </div> 
                                     <div class="research_content clearfix">
                                         <div class="research-pi">PIs: Dr. Kellndorfer and Dr. Cartus (Woods Hole Research Center)</div>
-                                        <div class="center">
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                While change detection from optical time series has progressed well in recent years, the use of radar data for forest cover change
-                                                detection, which due to its ability to penetrate clouds could be a valuable additional source of information on forest cover change
-                                                in areas where cloud cover tends to be persistent (i.e., the tropics), is largely underutilized. On April 3rd 2014, the European
-                                                Space Agency (ESA) successfully launched the first in a new series of earth observation satellites, SENTINEL-1, which will acquire,
-                                                for the first time, dense time series of C-band (~5 cm wavelength) radar data at medium (~25 m) spatial resolution consistently every
-                                                three days and at a global scale. According to the European Delegated Act on Copernicus data, ESA will provide free, full and open
-                                                access to Sentinel-1 data.
-                                            </p>
-                                            <p class="divcenter tleft bottommargin-verysm">
-                                                SENTINEL-1 hence opens up new possibilities for mining time series of spaceborne optical and radar data for improved operational
-                                                forest monitoring, in particular in tropical countries. This study supports the development of national MRV systems by
-                                                investigating, in collaboration with governmental agencies in Mexico, Colombia, and Peru, the potential of SENTINEL-1 data for
-                                                mapping forest cover change. 
-                                            </p>
-                                        </div>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            While change detection from optical time series has progressed well in recent years, the use of radar data for forest cover change
+                                            detection, which due to its ability to penetrate clouds could be a valuable additional source of information on forest cover change
+                                            in areas where cloud cover tends to be persistent (i.e., the tropics), is largely underutilized. On April 3rd 2014, the European
+                                            Space Agency (ESA) successfully launched the first in a new series of earth observation satellites, SENTINEL-1, which will acquire,
+                                            for the first time, dense time series of C-band (~5 cm wavelength) radar data at medium (~25 m) spatial resolution consistently every
+                                            three days and at a global scale. According to the European Delegated Act on Copernicus data, ESA will provide free, full and open
+                                            access to Sentinel-1 data.
+                                        </p>
+                                        <p class="bottommargin-verysm" style="text-align:left">
+                                            SENTINEL-1 hence opens up new possibilities for mining time series of spaceborne optical and radar data for improved operational
+                                            forest monitoring, in particular in tropical countries. This study supports the development of national MRV systems by
+                                            investigating, in collaboration with governmental agencies in Mexico, Colombia, and Peru, the potential of SENTINEL-1 data for
+                                            mapping forest cover change. 
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="research_entry">
@@ -1847,38 +1856,40 @@
                 <!-- Copyrights ============================================= -->
                 <div id="copyrights">
                     <div class="container clearfix">
-						<div class="col_one_sixth">
-							<img src="images\US Flag Color High.jpg" />
-						</div>
-                        <div class="col_one_third" style="padding-top:10px">
-                            Copyright &copy; 2012-2020 SilvaCarbon.<br />All Rights Reserved.
-                        </div>
-                        <div class="col_half col_last tright">
-                            <div class="fright clearfix">
-                                <a href="https://www.state.gov/" target ="_blank">
-                                    <img src="images/sponsors/state_gray.png" />
-                                </a>
-                                <a href="https://www.fs.fed.us/" target ="_blank">
-                                    <img src="images/sponsors/forest_gray.png" />
-                                </a>
-                                <a href="https://www.nasa.gov/" target ="_blank">
-                                    <img src="images/sponsors/nasa_gray.png" />
-                                </a>
-                                <a href="https://www.epa.gov/" target ="_blank">
-                                    <img src="images/sponsors/epa_gray.png" />
-                                </a>
-                                <a href="http://www.noaa.gov/" target ="_blank">
-                                    <img src="images/sponsors/noaa_gray.png" />
-                                </a>
-                                <a href="https://www.usgs.gov/" target="_blank">
-                                    <img src="images/sponsors/usgs_gray.png" />
-                                </a>
-                                <a href="https://www.usaid.gov/" target="_blank">
-                                    <img src="images/sponsors/aid_gray.png" />
-                                </a>
-                                <a href="https://www.si.edu/" target="_blank">
-                                    <img src="images/sponsors/smith_gray.png" />
-                                </a>
+                        <div id="flagrow" class="row">
+                            <div class="col-2">
+                                <img id="flag" src="images/US Flag Color High.jpg" />
+                            </div>
+                            <div class="col-4" style="padding-top:10px">
+                                Copyright &copy; 2012-2020 SilvaCarbon.<br />All Rights Reserved.
+                            </div>
+                            <div class="col-6">
+                                <div class="clearfix" style="float:right">
+                                    <a href="https://www.state.gov/" target ="_blank">
+                                        <img src="images/sponsors/state_gray.png" />
+                                    </a>
+                                    <a href="https://www.fs.fed.us/" target ="_blank">
+                                        <img src="images/sponsors/forest_gray.png" />
+                                    </a>
+                                    <a href="https://www.nasa.gov/" target ="_blank">
+                                        <img src="images/sponsors/nasa_gray.png" />
+                                    </a>
+                                    <a href="https://www.epa.gov/" target ="_blank">
+                                        <img src="images/sponsors/epa_gray.png" />
+                                    </a>
+                                    <a href="http://www.noaa.gov/" target ="_blank">
+                                        <img src="images/sponsors/noaa_gray.png" />
+                                    </a>
+                                    <a href="https://www.usgs.gov/" target="_blank">
+                                        <img src="images/sponsors/usgs_gray.png" />
+                                    </a>
+                                    <a href="https://www.usaid.gov/" target="_blank">
+                                        <img src="images/sponsors/aid_gray.png" />
+                                    </a>
+                                    <a href="https://www.si.edu/" target="_blank">
+                                        <img src="images/sponsors/smith_gray.png" />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1901,9 +1912,9 @@
         <!-- Go To Top ============================================= -->
         <div id="gotoTop" class="icon-angle-up"></div>
     
-        <!-- External JavaScripts jQuery 3.4.1 ============================================= -->
-        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-        <script type="text/javascript" src="js/plugins-3.4.1.min.js"></script>
-        <script type="text/javascript" src="js/functions-3.4.1.js"></script>
+        <!-- External JavaScripts jQuery 3.5.1 ============================================= -->
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/plugins-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/functions-3.5.1.min.js"></script>
     </body>
 </html>
