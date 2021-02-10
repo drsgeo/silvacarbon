@@ -324,3 +324,7 @@ body {
 .toggle:not(.toggle-active) .toggle-closed {
     display:inline-block;
 }
+
+#brand img {
+    max-width: 250px;
+}
