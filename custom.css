@@ -256,7 +256,8 @@ div.activity-meta {
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    margin-top: 0px;
 }
 
 img.margin {
