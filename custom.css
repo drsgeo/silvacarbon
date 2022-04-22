@@ -433,3 +433,38 @@ body {
 #brand img {
     max-width: 250px;
 }
+
+.row {
+    /* override margin-left: -15px; margin-right: -15px from bootstrap.css */
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+a.elearning {
+    margin-right: 20px;
+}
+
+.social-icon em {
+    display: inline;
+    /* display: block; */
+    position: relative;
+    /* position: static;   SET BY ME 4/20/22 */
+}
+
+
+.social-icon {
+    display: inline-block;
+    /*margin: 0 10px 10px 0;*/
+    height: 30px;
+    width: 30px;
+    float: none;
+}
+
+.social-icon.si-small {
+    height: 30px;
+    width: 30px;
+}
+
+.si-colored em {
+    color: #fff;
+}
