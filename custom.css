@@ -160,6 +160,12 @@ div.activity-timeplace {
     margin-bottom: 15px;
 }
 
+div.activity-header {
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 1.8;
+}
+
 p.activity-desc {
     position: relative;
     float: none;
@@ -167,12 +173,13 @@ p.activity-desc {
     margin-right: auto;
     margin-bottom: 5px;
     text-align: justify;
+    text-indent: 25px;
 }
 
 .activity-list {
     position: relative;
     float: none;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: auto;
     margin-bottom: 5px;
     text-align: justify;
