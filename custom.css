@@ -393,11 +393,11 @@ body {
     margin-bottom: 0 !important;
 }
 
-@media(min-width: 1440px) {
+/* @media(min-width: 1440px) {
     .container {
-        max-width: 1140px;  /* copied from bootstrap.css */
+        max-width: 1140px; 
     }
-}
+} */
 
 .swiper_wrapper .swiper-slide {
     background-position: center center;
@@ -474,4 +474,9 @@ a.language {
 
 .si-colored em {
     color: #fff;
+}
+
+/* to make sure down arrow at the bottom of the slider section works */
+.slider-caption.slider-caption-center {
+    position: static;
 }
